@@ -2,7 +2,7 @@
 
 A small React booking UI and Bun webhook receiver using the published `@availkit/client` SDK and `availkit` CLI. One UTC location, two services, two staff. This is a test-workspace example, with synthetic contact details and no payment collection.
 
-The repository starts private. Publication requires the recorded sample acceptance result and owner confirmation. There is no hosted demo.
+The repository was built privately and approved for public release after sample acceptance and passing CI. There is no hosted demo.
 
 ## Prerequisites
 

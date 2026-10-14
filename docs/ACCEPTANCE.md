@@ -1,6 +1,6 @@
 # Sample acceptance — 2026-10-14
 
-**Pass: the independent test-workspace sample journey.** The repository remains private for owner review and publication approval.
+**Pass: the independent test-workspace sample journey.** The repository was initially private for owner review. The owner approved public release after this acceptance passed.
 
 | Validation | Result |
 | --- | --- |
@@ -32,4 +32,4 @@ Install frozen registry dependencies, install Playwright Chromium plus system de
 
 These results cover this sample using published packages against isolated test infrastructure. They do not establish hosted demo operation, real-customer email delivery, durable receiver-side processing, production live-mode acceptance or a general-purpose catalog browser. The local event view is deliberately bounded, non-durable and contains no customer payload.
 
-Owner review and explicit confirmation are required before changing this repository's visibility to public. No public hosting or deployment is included in this acceptance.
+The owner approved public release after reviewing this evidence. [GitHub CI for the accepted implementation](https://github.com/refo/availkit-example-studio/actions/runs/38524036919) also passed at commit `9eaf03ed1a20ca743f5c710312c7932a910297e6`. No public hosting or deployment is included in this acceptance.
