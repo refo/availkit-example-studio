@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+!.env.receiver.example
+playwright-report/
+test-results/
+.impeccable/review/
+.impeccable/concepts/
+.impeccable/mocks/
+.impeccable/hook.cache.json
+operator-output/
+public/studio.json

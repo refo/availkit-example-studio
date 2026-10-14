@@ -1,0 +1,7 @@
+{
+  "services": [
+    { "id": "", "name": "Consultation", "durationMinutes": 60, "price": "75.00", "currency": "USD" },
+    { "id": "", "name": "Follow-up", "durationMinutes": 30, "price": "40.00", "currency": "USD" }
+  ],
+  "staff": [{ "id": "", "name": "Alex" }, { "id": "", "name": "Sam" }]
+}

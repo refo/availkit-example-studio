@@ -1,0 +1,55 @@
+{
+  "locations": [
+    { "ref": "studio", "name": "Appointment Studio", "timezone": "UTC" }
+  ],
+  "resources": [
+    {
+      "ref": "alex",
+      "location": "studio",
+      "name": "Alex",
+      "schedules": [
+        {
+          "type": "recurring",
+          "daysOfWeek": [0, 1, 2, 3, 4, 5, 6],
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "ref": "sam",
+      "location": "studio",
+      "name": "Sam",
+      "schedules": [
+        {
+          "type": "recurring",
+          "daysOfWeek": [0, 1, 2, 3, 4, 5, 6],
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "available": true
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "ref": "consultation",
+      "location": "studio",
+      "name": "Consultation",
+      "durationType": "fixed",
+      "durationMinutes": 60,
+      "price": "75.00",
+      "currency": "USD"
+    },
+    {
+      "ref": "follow-up",
+      "location": "studio",
+      "name": "Follow-up",
+      "durationType": "fixed",
+      "durationMinutes": 30,
+      "price": "40.00",
+      "currency": "USD"
+    }
+  ]
+}

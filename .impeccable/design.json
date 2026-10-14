@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T06:43:37.125273+00:00",
+  "title": "Design System: Appointment Studio",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0124 91.52)",
+          "oklch(25% 0.0124 91.52)",
+          "oklch(35% 0.0124 91.52)",
+          "oklch(45% 0.0124 91.52)",
+          "oklch(55% 0.0124 91.52)",
+          "oklch(65% 0.0124 91.52)",
+          "oklch(80% 0.0124 91.52)",
+          "oklch(95% 0.0124 91.52)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Forest Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0246 166.08)",
+          "oklch(25% 0.0246 166.08)",
+          "oklch(35% 0.0246 166.08)",
+          "oklch(45% 0.0246 166.08)",
+          "oklch(55% 0.0246 166.08)",
+          "oklch(65% 0.0246 166.08)",
+          "oklch(80% 0.0246 166.08)",
+          "oklch(95% 0.0246 166.08)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0184 154.09)",
+          "oklch(25% 0.0184 154.09)",
+          "oklch(35% 0.0184 154.09)",
+          "oklch(45% 0.0184 154.09)",
+          "oklch(55% 0.0184 154.09)",
+          "oklch(65% 0.0184 154.09)",
+          "oklch(80% 0.0184 154.09)",
+          "oklch(95% 0.0184 154.09)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Reception Green",
+        "tonalRamp": [
+          "oklch(15% 0.0596 157.59)",
+          "oklch(25% 0.0596 157.59)",
+          "oklch(35% 0.0596 157.59)",
+          "oklch(45% 0.0596 157.59)",
+          "oklch(55% 0.0596 157.59)",
+          "oklch(65% 0.0596 157.59)",
+          "oklch(80% 0.0596 157.59)",
+          "oklch(95% 0.0596 157.59)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Sage Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0182 140.02)",
+          "oklch(25% 0.0182 140.02)",
+          "oklch(35% 0.0182 140.02)",
+          "oklch(45% 0.0182 140.02)",
+          "oklch(55% 0.0182 140.02)",
+          "oklch(65% 0.0182 140.02)",
+          "oklch(80% 0.0182 140.02)",
+          "oklch(95% 0.0182 140.02)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Cream Sheet",
+        "tonalRamp": [
+          "oklch(15% 0.0082 91.48)",
+          "oklch(25% 0.0082 91.48)",
+          "oklch(35% 0.0082 91.48)",
+          "oklch(45% 0.0082 91.48)",
+          "oklch(55% 0.0082 91.48)",
+          "oklch(65% 0.0082 91.48)",
+          "oklch(80% 0.0082 91.48)",
+          "oklch(95% 0.0082 91.48)"
+        ]
+      },
+      "focus": {
+        "role": "functional",
+        "displayName": "Copper Focus",
+        "tonalRamp": [
+          "oklch(15% 0.1014 56.67)",
+          "oklch(25% 0.1014 56.67)",
+          "oklch(35% 0.1014 56.67)",
+          "oklch(45% 0.1014 56.67)",
+          "oklch(55% 0.1014 56.67)",
+          "oklch(65% 0.1014 56.67)",
+          "oklch(80% 0.1014 56.67)",
+          "oklch(95% 0.1014 56.67)"
+        ]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Text Selection Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0416 123.63)",
+          "oklch(25% 0.0416 123.63)",
+          "oklch(35% 0.0416 123.63)",
+          "oklch(45% 0.0416 123.63)",
+          "oklch(55% 0.0416 123.63)",
+          "oklch(65% 0.0416 123.63)",
+          "oklch(80% 0.0416 123.63)",
+          "oklch(95% 0.0416 123.63)"
+        ]
+      },
+      "chosen": {
+        "role": "primary",
+        "displayName": "Selected Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0197 125.83)",
+          "oklch(25% 0.0197 125.83)",
+          "oklch(35% 0.0197 125.83)",
+          "oklch(45% 0.0197 125.83)",
+          "oklch(55% 0.0197 125.83)",
+          "oklch(65% 0.0197 125.83)",
+          "oklch(80% 0.0197 125.83)",
+          "oklch(95% 0.0197 125.83)"
+        ]
+      },
+      "choice-hover": {
+        "role": "primary",
+        "displayName": "Hover Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0152 123.04)",
+          "oklch(25% 0.0152 123.04)",
+          "oklch(35% 0.0152 123.04)",
+          "oklch(45% 0.0152 123.04)",
+          "oklch(55% 0.0152 123.04)",
+          "oklch(65% 0.0152 123.04)",
+          "oklch(80% 0.0152 123.04)",
+          "oklch(95% 0.0152 123.04)"
+        ]
+      },
+      "notice-background": {
+        "role": "functional",
+        "displayName": "Warm Notice Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0276 67.48)",
+          "oklch(25% 0.0276 67.48)",
+          "oklch(35% 0.0276 67.48)",
+          "oklch(45% 0.0276 67.48)",
+          "oklch(55% 0.0276 67.48)",
+          "oklch(65% 0.0276 67.48)",
+          "oklch(80% 0.0276 67.48)",
+          "oklch(95% 0.0276 67.48)"
+        ]
+      },
+      "notice-ink": {
+        "role": "functional",
+        "displayName": "Notice Brown",
+        "tonalRamp": [
+          "oklch(15% 0.0902 51.93)",
+          "oklch(25% 0.0902 51.93)",
+          "oklch(35% 0.0902 51.93)",
+          "oklch(45% 0.0902 51.93)",
+          "oklch(55% 0.0902 51.93)",
+          "oklch(65% 0.0902 51.93)",
+          "oklch(80% 0.0902 51.93)",
+          "oklch(95% 0.0902 51.93)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep Reception Green",
+        "tonalRamp": [
+          "oklch(15% 0.0555 156.90)",
+          "oklch(25% 0.0555 156.90)",
+          "oklch(35% 0.0555 156.90)",
+          "oklch(45% 0.0555 156.90)",
+          "oklch(55% 0.0555 156.90)",
+          "oklch(65% 0.0555 156.90)",
+          "oklch(80% 0.0555 156.90)",
+          "oklch(95% 0.0555 156.90)"
+        ]
+      },
+      "button-text": {
+        "role": "neutral",
+        "displayName": "White Button Lettering",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Serif studio heading; overrides to 44px at 640px and below."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Form, connection guidance, and receipt headings; 32px at 640px and below."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Instructions and receipt prose; inherited browser-default size."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Labels, hints, test note, and service-duration details."
+      },
+      "legend": {
+        "displayName": "Legend",
+        "purpose": "Bold native fieldset step titles."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Two-line home link."
+      },
+      "detail": {
+        "displayName": "Detail",
+        "purpose": "Context and receipt definition lists."
+      },
+      "reference": {
+        "displayName": "Reference",
+        "purpose": "Compact wrapping booking reference and inline code."
+      }
+    },
+    "shadows": [
+      {
+        "name": "booking-sheet",
+        "value": "0 12px 32px #25352e0c",
+        "purpose": "Ambient lift beneath the enclosing booking surface only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "receipt-entry",
+        "value": "receipt 0.25s ease-out",
+        "purpose": "Translate the receipt from 6px below its resting position to 0; disabled under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "900px"
+      },
+      {
+        "name": "stacked",
+        "value": "640px"
+      }
+    ],
+    "focus": [
+      {
+        "name": "keyboard",
+        "value": "outline: 3px solid var(--focus); outline-offset: 4px",
+        "purpose": "Controls, links, radio labels, and visible focus on the receipt heading."
+      }
+    ],
+    "states": [
+      {
+        "name": "disabled",
+        "value": "opacity: 0.6; cursor: default",
+        "purpose": "Disabled buttons and native fieldsets."
+      },
+      {
+        "name": "uncertain-request",
+        "purpose": "Lock editable fieldsets and retry the original attempt until its result is resolved."
+      },
+      {
+        "name": "stale-time",
+        "purpose": "Clear time selection and refresh availability while retaining contact details."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A solid action for submitting a request or starting another received visit.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Request appointment</button>",
+      "css": ".ds-primary{font-family:\"DM Sans\",sans-serif;font-size:16px;padding:12px 20px;min-height:48px;border:1px solid var(--accent,#355d46);border-radius:8px;background:var(--accent,#355d46);color:white;cursor:pointer;}.ds-primary:hover:enabled{background:#284c37;}.ds-primary:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}.ds-primary:disabled{opacity:.6;cursor:default;}"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Underlined recovery action, including refreshing available times.",
+      "html": "<button class=\"ds-text\" type=\"button\">Refresh available times</button>",
+      "css": ".ds-text{font-family:\"DM Sans\",sans-serif;font-size:16px;padding:0;min-height:44px;border:0;border-radius:8px;background:transparent;color:var(--accent,#355d46);text-decoration:underline;text-underline-offset:4px;margin-top:4px;cursor:pointer;}.ds-text:hover:enabled{background:transparent;color:var(--ink,#25352e);}.ds-text:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}.ds-text:disabled{opacity:.6;cursor:default;}"
+    },
+    {
+      "name": "Labeled Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A native contact field; the same control surface supports email and date inputs.",
+      "html": "<label class=\"ds-field-label\">Name<input class=\"ds-field\" name=\"name\" autocomplete=\"name\" required></label>",
+      "css": ".ds-field-label{font-family:\"DM Sans\",sans-serif;font-size:14px;color:var(--ink,#25352e);}.ds-field{font-family:\"DM Sans\",sans-serif;font-size:16px;width:100%;padding:12px;background:var(--panel,#fffdf7);color:var(--ink,#25352e);border:1px solid var(--line,#b7c0b5);border-radius:8px;min-height:48px;display:block;margin-top:8px;caret-color:var(--accent,#355d46);}.ds-field:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}"
+    },
+    {
+      "name": "Labeled Select",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Native selection with a visible label and the shared field surface.",
+      "html": "<label class=\"ds-select-label\">Staff<select class=\"ds-select\" required><option value=\"\">Select staff</option><option>Alex</option><option>Sam</option></select></label>",
+      "css": ".ds-select-label{font-family:\"DM Sans\",sans-serif;font-size:14px;color:var(--ink,#25352e);}.ds-select{font-family:\"DM Sans\",sans-serif;font-size:16px;width:100%;padding:12px;background:var(--panel,#fffdf7);color:var(--ink,#25352e);border:1px solid var(--line,#b7c0b5);border-radius:8px;min-height:48px;display:block;margin-top:8px;}.ds-select:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}"
+    },
+    {
+      "name": "Service Choice",
+      "kind": "custom",
+      "refersTo": "service-choice",
+      "description": "Fine ruled service rows with native radios, duration detail, and tabular price; preview uses checked semantics to mirror React selected state.",
+      "html": "<fieldset class=\"ds-services\"><legend>Choose a service</legend><div class=\"ds-service-list\"><label class=\"ds-service\"><input type=\"radio\" name=\"ds-service\" checked><span><strong>Consultation</strong><small>30 minutes</small></span><span class=\"ds-price\">$40.00</span></label><label class=\"ds-service\"><input type=\"radio\" name=\"ds-service\"><span><strong>Extended visit</strong><small>60 minutes</small></span><span class=\"ds-price\">$70.00</span></label></div></fieldset>",
+      "css": ".ds-services{font-family:\"DM Sans\",sans-serif;color:var(--ink,#25352e);border:0;padding:0;margin:28px 0 0;min-width:0;}.ds-services legend{font-size:16px;font-weight:700;margin-bottom:12px;padding:0;}.ds-service-list{border-top:1px solid var(--line,#b7c0b5);}.ds-service{display:flex;align-items:center;gap:16px;padding:18px 10px;border-bottom:1px solid var(--line,#b7c0b5);cursor:pointer;font-size:14px;}.ds-service input{width:18px;height:18px;min-height:18px;accent-color:var(--accent,#355d46);}.ds-service strong,.ds-service small{display:block;}.ds-service small{margin-top:4px;color:var(--muted,#5b665e);font-size:14px;}.ds-price{margin-left:auto;font-variant-numeric:tabular-nums;}.ds-service:has(input:checked){background:#e7eddf;}.ds-service:hover{background:#edf1e6;}.ds-service:has(input:focus-visible),.ds-service input:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}.ds-services:disabled{opacity:.6;cursor:default;}"
+    },
+    {
+      "name": "Time Choice",
+      "kind": "custom",
+      "refersTo": "time-choice",
+      "description": "Native radio labels form a three-column time grid, becoming two columns on small screens.",
+      "html": "<div class=\"ds-times\"><label><input type=\"radio\" name=\"ds-time\" checked required><span>9:00 AM</span></label><label><input type=\"radio\" name=\"ds-time\" required><span>10:00 AM</span></label><label><input type=\"radio\" name=\"ds-time\" required><span>11:00 AM</span></label></div>",
+      "css": ".ds-times{font-family:\"DM Sans\",sans-serif;color:var(--ink,#25352e);display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}.ds-times label{position:relative;display:flex;align-items:center;justify-content:center;border:1px solid var(--line,#b7c0b5);border-radius:8px;min-height:48px;font-size:14px;cursor:pointer;font-variant-numeric:tabular-nums;}.ds-times input{position:absolute;inset:0;opacity:0;width:100%;height:100%;min-height:0;margin:0;cursor:pointer;}.ds-times label:has(input:checked){background:#e7eddf;border-color:var(--accent,#355d46);color:var(--accent,#355d46);font-weight:700;}.ds-times label:hover{background:#edf1e6;}.ds-times label:has(input:focus-visible){outline:3px solid var(--focus,#915524);outline-offset:4px;}@media(max-width:640px){.ds-times{grid-template-columns:repeat(2,1fr);}}"
+    },
+    {
+      "name": "Alert Notice",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "A warm inline alert for recoverable errors and uncertain request outcomes.",
+      "html": "<p class=\"ds-notice\" role=\"alert\">We could not confirm the result. Keep this tab open and retry the same request to avoid a duplicate booking.</p>",
+      "css": ".ds-notice{font-family:\"DM Sans\",sans-serif;font-size:16px;line-height:1.65;background:#f8e8d8;color:#743e19;padding:16px;border-radius:8px;margin:24px 0 16px;max-width:65ch;overflow-wrap:anywhere;}"
+    },
+    {
+      "name": "Booking Sheet",
+      "kind": "card",
+      "refersTo": "booking-panel",
+      "description": "The one gently lifted surface enclosing forms, setup guidance, and receipts.",
+      "html": "<section class=\"ds-sheet\" aria-label=\"Book an appointment\"><h2>Book a visit</h2><p>Start with the service that fits.</p></section>",
+      "css": ".ds-sheet{font-family:\"DM Sans\",sans-serif;color:var(--ink,#25352e);background:var(--panel,#fffdf7);border-radius:16px;padding:36px;box-shadow:0 12px 32px #25352e0c;}.ds-sheet h2{font-family:\"Newsreader\",serif;font-size:36px;font-weight:400;line-height:1.1;letter-spacing:-.025em;text-wrap:balance;margin:0 0 12px;}.ds-sheet p{font-size:14px;color:var(--muted,#5b665e);line-height:1.65;margin:0 0 28px;max-width:65ch;}@media(max-width:900px){.ds-sheet{padding:28px;}}@media(max-width:640px){.ds-sheet{padding:24px 20px;}.ds-sheet h2{font-size:32px;}}"
+    },
+    {
+      "name": "Studio Header",
+      "kind": "nav",
+      "refersTo": "studio-wordmark",
+      "description": "A two-line home link opposite a quiet test-studio note.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#\">Appointment<br>Studio<span aria-hidden=\"true\">.</span></a><span class=\"ds-test-note\">Test studio · No payment collected</span></header>",
+      "css": ".ds-header{font-family:\"DM Sans\",sans-serif;color:var(--ink,#25352e);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line,#b7c0b5);padding-bottom:32px;}.ds-wordmark{font-size:23px;line-height:1.1;letter-spacing:-.03em;font-weight:700;text-decoration:none;color:inherit;}.ds-wordmark span{color:var(--accent,#355d46);}.ds-wordmark:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}.ds-test-note{font-size:14px;color:var(--muted,#5b665e);}@media(max-width:640px){.ds-header{align-items:flex-start;padding-bottom:24px;gap:24px;}.ds-test-note{max-width:140px;text-align:right;}}"
+    },
+    {
+      "name": "Pending Receipt",
+      "kind": "custom",
+      "refersTo": "booking-panel",
+      "description": "A pending receipt with a wrapping reference, focused heading, and reduced-motion-aware entry.",
+      "html": "<section class=\"ds-receipt\"><h2 tabindex=\"-1\">Your request is received.</h2><p>Your appointment is pending. The studio operator can confirm it.</p><dl><dt>When</dt><dd>Friday, October 16<br>9:00 AM UTC</dd><dt>Booking reference</dt><dd class=\"ds-reference\">booking_test_reference</dd><dt>Status</dt><dd>pending</dd></dl></section>",
+      "css": ".ds-receipt{font-family:\"DM Sans\",sans-serif;color:var(--ink,#25352e);animation:ds-receipt .25s ease-out;}.ds-receipt h2{font-family:\"Newsreader\",serif;font-size:36px;font-weight:400;line-height:1.1;letter-spacing:-.025em;text-wrap:balance;margin:0 0 12px;}.ds-receipt h2:focus{outline:none;}.ds-receipt h2:focus-visible{outline:3px solid var(--focus,#915524);outline-offset:4px;}.ds-receipt p{line-height:1.65;margin:0 0 16px;max-width:65ch;}.ds-receipt dl{margin:40px 0;display:grid;grid-template-columns:100px 1fr;gap:12px 20px;font-size:15px;line-height:1.55;}.ds-receipt dt{color:var(--muted,#5b665e);}.ds-receipt dd{margin:0;overflow-wrap:anywhere;}.ds-reference{font-size:13px;}@keyframes ds-receipt{from{transform:translateY(6px);}to{transform:translateY(0);}}@media(prefers-reduced-motion:reduce){.ds-receipt{animation:none;}}@media(max-width:640px){.ds-receipt h2{font-size:32px;}.ds-receipt dl{grid-template-columns:1fr;gap:6px;}.ds-receipt dd{margin-bottom:12px;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Appointment Reception Sheet",
+    "overview": "Warm paper, quiet green controls, and fine rules make an appointment request feel readable and orderly. Newsreader headings give the surface a human reception-room voice; DM Sans keeps instructions, choices, and references practical. The form is comfortably spaced, with related choices grouped rather than isolated into decorative cards.\n\nThe interface explains what the customer can do and what the operator still needs to confirm. Its visual vocabulary supports native controls, visible selection, clear recovery, and a pending receipt. Studio context sits alongside the form on wider screens and precedes it on small screens.",
+    "keyCharacteristics": [
+      "Warm paper behind a lightly lifted cream form surface.",
+      "Serif headings paired with plain sans-serif instructions.",
+      "Muted green actions, native controls, and grouped choice rules.",
+      "Explicit pending status and recoverable request states.",
+      "Responsive stacking and reduced-motion receipt feedback."
+    ],
+    "rules": [
+      {
+        "name": "The Visible State Rule",
+        "body": "A selected time uses a sage surface, green border and text, and stronger type; color alone does not carry its state. Preserve native checked semantics for both service and time radios.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Reserve Newsreader for headings. Use DM Sans for instructions, fields, choices, actions, and operational details. Price and time choices use tabular numerals; long references wrap anywhere.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sheet Rule",
+        "body": "Keep grouped controls flat inside one lightly lifted form surface; do not give each row its own elevated card.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the warm paper, cream sheet, quiet green, and fine ruled choice vocabulary.",
+      "**Do** use Newsreader headings and DM Sans for readable form content.",
+      "**Do** keep native fieldset, legend, label, radio, select, and date semantics with visible keyboard focus.",
+      "**Do** keep selected states visible through fill, border or weight as well as native checked state.",
+      "**Do** stack context, paired fields, and receipt details at their documented breakpoints.",
+      "**Do** distinguish pending receipt, stale availability, and uncertain same-request retry.",
+      "**Do** respect reduced motion and wrap long references and alert text."
+    ],
+    "donts": [
+      "**Don't** replace grouped service rows with independently elevated cards.",
+      "**Don't** hide keyboard focus or substitute color for native checked semantics.",
+      "**Don't** style a pending request as a confirmed appointment.",
+      "**Don't** unlock or reset an uncertain request before the original result is resolved.",
+      "**Don't** introduce motion to hover states or animate the receipt under reduced-motion preference."
+    ]
+  }
+}

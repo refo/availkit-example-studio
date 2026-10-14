@@ -1,0 +1,84 @@
+[
+  {
+    "check": "deterministic non-mutating catalog dry run",
+    "result": {
+      "locations": 1,
+      "resources": 2,
+      "schedules": 2,
+      "services": 2,
+      "priceRules": 0
+    }
+  },
+  {
+    "check": "catalog import",
+    "result": [
+      "alex",
+      "consultation",
+      "follow-up",
+      "sam",
+      "studio"
+    ]
+  },
+  {
+    "check": "CLI import references generate public catalog; publishable management rejected",
+    "result": true
+  },
+  {
+    "check": "staff-specific future UTC availability",
+    "result": {
+      "date": "2026-10-16",
+      "count": 8
+    }
+  },
+  {
+    "check": "sample booking helper submits pending contact metadata",
+    "result": true
+  },
+  {
+    "check": "identical retry replays original booking",
+    "result": true
+  },
+  {
+    "check": "changed idempotency payload rejected",
+    "result": true
+  },
+  {
+    "check": "stale slot rejected and absent after refresh",
+    "result": true
+  },
+  {
+    "check": "publishable management authority rejected",
+    "result": true
+  },
+  {
+    "check": "CLI confirmation and cancellation",
+    "result": true
+  },
+  {
+    "check": "real worker signatures and CLI durable inspection",
+    "result": {
+      "events": [
+        "booking.confirmed",
+        "booking.created",
+        "booking.cancelled"
+      ],
+      "status": 204
+    }
+  },
+  {
+    "check": "HTTP signature rejection, duplicate acknowledgement and redacted local view",
+    "result": true
+  },
+  {
+    "check": "publishable test rotation rejects old key and accepts replacement",
+    "result": true
+  },
+  {
+    "check": "secret test rotation rejects old key; CLI fetches replacement",
+    "result": true
+  },
+  {
+    "check": "real React/browser journey reaches API with publishable key only",
+    "result": true
+  }
+]
